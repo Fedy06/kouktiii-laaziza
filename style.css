@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background: linear-gradient(#ffd6e8, #fff);
+  font-family: "Comic Sans MS", cursive;
+  text-align: center;
+  overflow: hidden;
+}
+
+.container {
+  padding: 40px;
+}
+
+h1 {
+  color: #ff4d88;
+  font-size: 40px;
+  text-shadow: 0 0 10px white;
+}
+
+.message {
+  font-size: 20px;
+  color: #555;
+  margin: 20px 0;
+}
+
+.gif-row img {
+  width: 120px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+button {
+  background: #ff4d88;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+#loveText {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #ff4d88;
+}
+
+.heart {
+  position: absolute;
+  font-size: 20px;
+  animation: float 5s linear infinite;
+}
+
+@keyframes float {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(-10vh);
+  }
+}
